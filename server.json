@@ -1,0 +1,20 @@
+{
+    "CN": "docker TLS server davidjenni.info",
+    "hosts": [
+        "45.55.108.80",
+        "test-manager-01.sfo1"
+    ],
+    "key": {
+        "algo": "ecdsa",
+        "size": 256
+    },
+    "names": [
+        {
+            "C": "US",
+            "ST": "WA",
+            "O": "davidjenni.info",
+            "L": "Redmond"
+        }
+    ]
+}
+
