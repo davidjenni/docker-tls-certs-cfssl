@@ -6,3 +6,8 @@ cfssl gencert -ca=ca.pem -ca-key=ca-key.pem -config=ca-config.json -profile=serv
 cfssl gencert -ca=ca.pem -ca-key=ca-key.pem -config=ca-config.json -profile=client client.json | cfssljson -bare client
 rm *.csr
 
+# rename client cert files to what docker expects:
+mv client.pem cert.pem
+mv client-key.pem key.pem
+
+
