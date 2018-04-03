@@ -1,7 +1,6 @@
 {
     "CN": "docker TLS server davidjenni.info",
     "hosts": [
-        "45.55.108.80",
         "test-manager-01.sfo1"
     ],
     "key": {
